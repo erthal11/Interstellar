@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="FmVIFn" name="Interstellar" projectType="audioplug" useAppConfig="0"
+              addUsingNamespaceToJuceHeader="0" displaySplashScreen="1" jucerFormatVersion="1"
+              companyName="Nate08 Records">
+  <MAINGROUP id="RrammT" name="Interstellar">
+    <GROUP id="{DBF49983-763B-4BDD-B7AA-CF68D5DE05D3}" name="Resources">
+      <FILE id="QmN9Xy" name="InterstellarBackground.jpg" compile="0" resource="1"
+            file="Source/InterstellarBackground.jpg"/>
+    </GROUP>
+    <GROUP id="{21F00DFB-2C38-FC95-3FDE-BEE6B60FFE9E}" name="Source">
+      <FILE id="OHATEy" name="myLookAndFeel.cpp" compile="1" resource="0"
+            file="Source/myLookAndFeel.cpp"/>
+      <FILE id="ZroMuy" name="myLookAndFeel.h" compile="0" resource="0" file="Source/myLookAndFeel.h"/>
+      <GROUP id="{907E61BE-17CD-2414-36B1-925B60FB466F}" name="Effects">
+        <FILE id="mrPCPx" name="APF.h" compile="0" resource="0" file="Source/APF.h"/>
+        <FILE id="qU18ZX" name="EffectMaster.h" compile="0" resource="0" file="Source/EffectMaster.h"/>
+        <FILE id="CbiGB4" name="Interpolatorinator.h" compile="0" resource="0"
+              file="Source/Interpolatorinator.h"/>
+        <FILE id="NsgAre" name="DelayLine.h" compile="0" resource="0" file="Source/DelayLine.h"/>
+        <FILE id="y5YYFC" name="LFO.h" compile="0" resource="0" file="Source/LFO.h"/>
+        <FILE id="DznJS7" name="HPF.h" compile="0" resource="0" file="Source/HPF.h"/>
+        <FILE id="EfG4cB" name="LPF.h" compile="0" resource="0" file="Source/LPF.h"/>
+        <FILE id="adkGJs" name="Utilities.h" compile="0" resource="0" file="Source/Utilities.h"/>
+      </GROUP>
+      <FILE id="dgjyWF" name="PluginProcessor.cpp" compile="1" resource="0"
+            file="Source/PluginProcessor.cpp"/>
+      <FILE id="Hf7YcC" name="PluginProcessor.h" compile="0" resource="0"
+            file="Source/PluginProcessor.h"/>
+      <FILE id="Gji57a" name="PluginEditor.cpp" compile="1" resource="0"
+            file="Source/PluginEditor.cpp"/>
+      <FILE id="SMuj06" name="PluginEditor.h" compile="0" resource="0" file="Source/PluginEditor.h"/>
+    </GROUP>
+  </MAINGROUP>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1" JUCE_VST3_CAN_REPLACE_VST2="0"/>
+  <EXPORTFORMATS>
+    <XCODE_MAC targetFolder="Builds/MacOSX">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="Interstellar"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="Interstellar"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_dsp" path="../JUCE/modules"/>
+      </MODULEPATHS>
+    </XCODE_MAC>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_audio_plugin_client" showAllCode="1" useLocalCopy="0"
+            useGlobalPath="0"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_dsp" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+  </MODULES>
+</JUCERPROJECT>
